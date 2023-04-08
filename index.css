@@ -1,0 +1,168 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline double;
+}
+
+.recipe-box {
+  position: relative;
+  padding: 50px;
+  margin-top: 120px;
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
+.image-box {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  top: -100px;
+  right: -150px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.charlotte-recipe-border {
+  border-top: 4px solid rgb(20, 112, 112);
+  border-right: 4px solid rgb(20, 112, 112);
+  border-left: 4px dashed rgb(20, 112, 112);
+  border-bottom: 4px dashed rgb(20, 112, 112);
+}
+
+.charlotte-recipe-background {
+  background-color:rgba(20, 112, 112, 0.3);
+}
+
+.charlotte-image-border {
+  border: 6px solid rgb(20, 112, 112);
+}
+
+.tiramisu-recipe-border {
+  border-top: 4px solid rgb(128, 128, 128);
+  border-right: 4px solid rgb(128, 128, 128);
+  border-left: 4px dashed rgb(128, 128, 128);
+  border-bottom: 4px dashed rgb(128, 128, 128);
+}
+
+.tiramisu-recipe-background {
+  background-color:rgba(128, 128, 128, 0.3);
+}
+
+.tiramisu-image-border {
+  border: 6px solid rgb(128, 128, 128);
+}
+
+.cookies-recipe-border {
+  border-top: 4px solid rgb(18, 146, 66);
+  border-right: 4px solid rgb(18, 146, 66);
+  border-left: 4px dashed rgb(18, 146, 66);
+  border-bottom: 4px dashed rgb(18, 146, 66);
+}
+
+.cookies-recipe-background {
+  background-color:rgba(18, 146, 66, 0.3);
+}
+
+.cookies-image-border {
+  border: 6px solid rgb(18, 146, 66);
+}
+
+.text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.presentation:first-letter {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.charlotte-presentation:first-letter {
+  color: rgb(20, 112, 112);
+}
+
+
+.charlotte-recipe-name {
+  text-decoration: underline 3px;
+  text-decoration-style: solid;
+  color: rgb(20, 112, 112);
+}
+
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.subtitle-charlotte {
+  color: rgb(20, 112, 112);
+}
+
+.charlotte-ingredients li:nth-child(even) {
+  color: rgb(20, 112, 112);
+  text-decoration: underline 1px;
+  text-decoration-style: dotted;
+}
+
+.charlotte-cooking li:nth-child(even) {
+  color: rgb(20, 112, 112);
+  text-decoration: underline 1px;
+  text-decoration-style: dotted;
+}
+
+.post-presentation {
+  text-align: center;
+  font-style: italic;
+  text-decoration: overline 1px;
+  text-decoration-style: solid;
+}
+
+.other-recipe-name {
+  text-decoration: underline 1px;
+  text-decoration-style: solid;
+}
+
+.tiramisu-recipe-name {
+  color: rgb(128, 128, 128);
+}
+
+.tiramisu-presentation:first-letter {
+  color: rgb(128, 128, 128);
+}
+
+.subtitle-tiramisu {
+  color: rgb(128, 128, 128);
+}
+
+.tiramisu-ingredients li:nth-child(odd) {
+  color: rgb(128, 128, 128);
+  text-decoration: underline 1px;
+  text-decoration-style: dashed;
+}
+
+.cookie-recipe-name {
+  color: rgb(18, 146, 66);
+}
+
+.cookie-presentation:first-letter {
+  color: rgb(18, 146, 66);
+}
+
+.subtitle-cookie {
+  color: rgb(18, 146, 66);
+}
+
+.cookie-ingredients li:nth-child(3n) {
+  color: rgb(18, 146, 66);
+  text-decoration: underline 1px;
+  text-decoration-style: wavy;
+}
+
